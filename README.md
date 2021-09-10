@@ -46,7 +46,8 @@ if (vehicle.getStreamSyncedMeta(VEHICLE_STATE.OWNER) != "dealership") {
     drawTexture('mpsafecracking', 'lock_open', newPosition, 1);
   }
 }
-                
+
+// Press 'X' to lock vehicle      
 if (vehicle.getStreamSyncedMeta(VEHICLE_STATE.OWNER) != "dealership") {
   const lockText = LocaleController.get(LOCALE_KEYS.VEHICLE_TOGGLE_LOCK);
   interactText = InteractionController.appendText(interactText, KEY_BINDS.VEHICLE_LOCK, lockText);
