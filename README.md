@@ -5,6 +5,8 @@
 
 ## SETUP
 This is a server & clientside plugin. So you will have to take care of both imports by yourself.
+- Drag Serverside into /src/core/plugins
+- Drag Clientside into /src/core/client-plugins
 
 Serverside Imports:
 ```typescript 
