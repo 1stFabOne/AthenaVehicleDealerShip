@@ -49,9 +49,11 @@ const blipNames = [
     "sultanRS"
 
 */
+// Make sure all of this vehicles exist in your vehicle list before you use them
 const vehiclePositions = [
     // Dealer 1 Positions ...
     { x: -61.8989, y: -1117.5297, z: 25.7920 }, // SultanRS Position
+    /* 
     { x: -59.0901, y: -1117.3319, z: 25.7245 }, // Emerus Position
     { x: -56.2934, y: -1117.4456, z: 26.0101 }, // Zentorno Position
     { x: -53.5368, y: -1117.5863, z: 26.0094 }, // T20 Position
@@ -66,11 +68,12 @@ const vehiclePositions = [
     // Dealer 3 Positions ...
     // < - >
 
-    // And so on.
+    // And so on. */
 ];
 
 const vehicleRotations = [
     { x: 0.0007, y: 0.0007, z: 0.0449 }, // SultanRS Rotation
+    /* 
     { x: 0.0007, y: 0.0007, z: 0.0269 }, // Emerus Rotation
     { x: 0.0001, y: -0.0006, z: 0.0315 }, // Zentorno Rotation
     { x: -0.0007, y: 0.0065, z: 0.0470 }, // T20 Rotation
@@ -86,11 +89,13 @@ const vehicleRotations = [
     // < - >
 
     // And so on.
+    */
 ];
 
 const vehiclesToSell = [
     // Dealer 1 Vehicles ...
     "sultanrs",
+    /* 
     "emerus",
     "zentorno",
     "t20",
@@ -106,6 +111,7 @@ const vehiclesToSell = [
     // < - >
 
     // And so on.
+    */
 ];
 
 alt.on(SYSTEM_EVENTS.BOOTUP_ENABLE_ENTRY, loadVehicleDealers)

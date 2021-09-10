@@ -17,7 +17,6 @@ alt.on('gameEntityCreate', (vehicle: alt.Vehicle) => {
 });
 
 alt.onServer("VehicleDealer:OpenInputMenu", (vehicleData: any) => {
-    console.log(vehicleData);
     const InputMenu = {
         title: "Vehicledealer",
         options: [
