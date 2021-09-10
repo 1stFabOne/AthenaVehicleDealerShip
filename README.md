@@ -26,6 +26,7 @@ import './vehicledealer/index';
 
 ## ATHENA CONFIGURATION 
 - If you skip that part created vehicles will have lock icons and stuff about them and you may encounter some weird stuff. You'll have to search yourself for the correct lines.
+
 src/core/server/extensions/vehicleFuncs.ts
 ```typescript
 // Used to skip keys for a vehicle.
